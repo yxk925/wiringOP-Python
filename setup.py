@@ -50,6 +50,7 @@ boards = ["orangepir1", "orangepizero", "orangepizero-lts", "orangepipc", "orang
           "orangepiplus2e", "orangepione", "orangepioneh5", "orangepilite", "orangepiplus", "orangepizeroplus2h3",
           "orangepizeroplus", "orangepipc2", "orangepiprime", "orangepizeroplus2h5", "orangepiwin", "orangepiwinplus",
           "orangepi3", "orangepi3-lts", "orangepilite2", "orangepioneplus", "orangepi4", "orangepi4-lts", "orangepirk3399",
+          "orangepi5b",
           "orangepi800", "orangepizero2", "orangepizero2-lts", "orangepizero2-b", "orangepir1plus-lts", "orangepir1plus"]
 
 inf_orangepi = cmdline('cat','/etc/orangepi-release')
@@ -119,6 +120,7 @@ elif BOARD == "orangepizeroplus2h5": EXTRA_CFLAGS = "-DCONFIG_ORANGEPI_ZEROPLUS2
 elif BOARD == "orangepirk3399": EXTRA_CFLAGS = "-DCONFIG_ORANGEPI_RK3399"
 elif BOARD == "orangepi4": EXTRA_CFLAGS = "-DCONFIG_ORANGEPI_4"
 elif BOARD == "orangepi4-lts": EXTRA_CFLAGS = "-DCONFIG_ORANGEPI_4_LTS"
+elif BOARD == "orangepi5b": EXTRA_CFLAGS = "-DCONFIG_ORANGEPI_5B"
 elif BOARD == "orangepi800": EXTRA_CFLAGS = "-DCONFIG_ORANGEPI_800"
 elif BOARD == "orangepir1plus-rk3328": EXTRA_CFLAGS = "-DCONFIG_ORANGEPI_R1PLUS"
 
